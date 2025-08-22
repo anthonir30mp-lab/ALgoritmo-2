@@ -1,0 +1,16 @@
+# Crear la pila con números del 1 al 15
+pila = list(range(1, 16))
+
+print(" Pila original:")
+print(pila)
+
+# Índices a eliminar 
+tercero = 2   # 3er
+septimo = 6   # 7mo
+
+# Eliminar primero el índice mayor para no alterar el orden
+pila.pop(tercero)
+pila.pop(septimo)
+
+print("\n Pila después de eliminar el 3.º y 7.º elemento:")
+print(pila)
