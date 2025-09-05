@@ -50,7 +50,7 @@ def busqueda_binaria(cursos_ordenados, hora_buscada): #la busqueda binaria es am
 #Lista de cursos de la hoja
 cursos=[
     {"codigo": "MICRO204", "nombre": "Microeconomia", "hora_inicio": "10:15"},
-    {"codigo": "FIS202", "nombre": "Física II", "hora_inicio": "03:45"},
+    {"codigo": "FIS202", "nombre": "Física II", "hora_inicio": "13:45"},
     {"codigo": "AEDIG305", "nombre": "Algoritmo y Estructura de datos II", "hora_inicio": "09:30"},
     {"codigo": "TI110", "nombre": "Tecnologias de informacion II", "hora_inicio": "08:45"},
     {"codigo": "EPR150", "nombre": "Estadistica y Probabilidad II", "hora_inicio": "17:00"}
